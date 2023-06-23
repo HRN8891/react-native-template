@@ -1,4 +1,3 @@
-#!/usr/bin/env ts-node
 const ora = require('ora');
 const inquirer = require('inquirer');
 const fs = require('fs');

@@ -4,8 +4,12 @@ import os from 'os';
 import { execSync } from "child_process";
 
 const PROJECT_PATH = process.cwd();
+console.log('PROJECT_PATH', PROJECT_PATH);
 const PACKAGE_JSON_PATH = `${PROJECT_PATH}/package.json`;
+console.log('PACKAGE_JSON_PATH', PACKAGE_JSON_PATH);
+
 const PROJECT_SRC_PATH = `${PROJECT_PATH}/src`
+console.log('PROJECT_SRC_PATH', PROJECT_SRC_PATH);
 
 const OPTIONAL_LIBRARIES: Record<string, string> = {
   'react-native-ui-lib': '^6.21.2',
